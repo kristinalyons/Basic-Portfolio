@@ -3,33 +3,40 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 	<body>
 		<header>
 			<section id="myname">
-				<h2>Kristina Lyons</h2>
+				<h2 class="kristina">Kristina Lyons</h2>
 			</section>
 			<section id="aboutheader">
-				<p>About | Portfolio | Contact</p>
+				<ul>
+					<li class="upperlinks"><a href="index.html">About</a></li>
+					<li class="upperlinks"><a href="portfolio.html">Portfolio</a></li>
+					<li class="upperlinks"><a href="contact.html">Contact</a></li>
+				</ul>
 			</section>
 		</header>
 			<div class="container">
 				<div id="forms">
 					<h3>Contact</h3>
+					<hr>
 						<form>
+							<br>
 							Name<br>
-							<input type="text" name="Name" size="70px"><br>
+							<input id="formname" type="text" name="Name"><br><br>
 							Email<br>
-							<input type="text" name="Email" size="70px"><br>
+							<input id="formemail" type="text" name="Email"><br><br>
 							Message<br>
-							<input type="text" name="Message" size="70px"><br>
-							<input type="submit" name="Submit">
+							<input id="formmessage" type="text" name="Message"><br>
+							<button type="submit">Submit</button>
 						</form>
 				</div>
 			<div id="connectwithme">
 				<h4>Connect with Me</h4>
-			
+				<hr>
 				<div id="socialmedia">
 						<a href="http://www.github.com"><img src="http://code-bude.net/wp-content/uploads/2013/10/1372714624_github_circle_black.png" height="50px" width="50px" alt="Github logo" id="github"/></a>
 						<a href="http://www.linkedin.com"><img src="http://www.dynamicbusiness.com.au/wp-content/uploads/2010/03/linkedin-logo2.jpg" height="50px" width="50px" alt="LinkedIn logo" id="linkedin"/></a>
